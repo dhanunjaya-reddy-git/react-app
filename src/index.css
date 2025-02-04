@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+}
+
+.admin-container {
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  border: 2px solid #6f42c1;
+}
+
+.admin-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-item {
+  color: white;
+  font-size: 16px;
+}
+
+.admin-btn {
+  background: none;
+  border: 2px solid #00ff00;
+  color: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.admin-btn.active {
+  background:none;
+  color: #000;
+}
+
+.admin-title {
+  color: #00ff00;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.new-btn {
+  background: #fff;
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #222;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 2px solid #333;
+}
+
+.input-field {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.update-btn {
+  background: none;
+  color: black;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.update-btn:hover {
+  background: none;
+}
+
+.delete-btn {
+  background: none;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background:none;
+  color: black;
+}

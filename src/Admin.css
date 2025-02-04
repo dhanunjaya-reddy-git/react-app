@@ -1,0 +1,120 @@
+/* Dark theme with green highlights */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Admin Container */
+  .container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #6f42c1;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+  }
+  
+  /* Navigation */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .nav-link.active {
+    color: #00ff00;
+    font-weight: bold;
+    border: 2px solid #00ff00;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  
+  /* Admin Header */
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    /* color: #00ff00; */
+  }
+  
+  /* New Product Button */
+  .btn.new {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.new:hover {
+    background-color: transparent;
+    border-color: #00ff00;
+    color: navy;
+  }
+  
+  /* Form */
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  input, textarea {
+    background-color: #2c2c2c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Product List */
+  .product-list {
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    /* background-color: #191919; */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: transparent;
+    border: 2px solid #00ff00; /* Green border */
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Delete Button (Red Text & Border) */
+  .btn.delete {
+    color: greenyellow;
+    border-color:greenyellow;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+  }
+  
+  .btn.delete:hover {
+    background-color: transparent;
+    color: beige;
+    border: 2px solid white;
+  }
+  
